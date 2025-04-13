@@ -68,6 +68,4 @@ docker-compose up
 - `POST /sales`: Create a new sale
 - `DELETE /sales/{id}`: Cancel a sale
 
-For detailed API documentation, refer to the [API Documentation](./general-api.txt) file.
-
 This project is licensed under the MIT License.
