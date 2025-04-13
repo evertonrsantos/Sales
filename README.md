@@ -53,6 +53,11 @@ The solution follows Domain-Driven Design principles:
 docker-compose up -d
 ```
 
+To see the logs, run:
+```bash
+docker-compose up
+```
+
 4. Access the API at http://localhost:7777
 
 ### API Endpoints
@@ -65,20 +70,4 @@ docker-compose up -d
 
 For detailed API documentation, refer to the [API Documentation](./general-api.txt) file.
 
-## Development
-
-### Building Locally
-
-```bash
-dotnet build
-```
-
-### Running Tests
-
-```bash
-dotnet test
-```
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
